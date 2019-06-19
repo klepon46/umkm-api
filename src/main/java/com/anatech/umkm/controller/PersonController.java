@@ -21,7 +21,7 @@ public class PersonController {
     ResponseEntity<Response> findAll() {
 
         Response response = new Response();
-        response.setMessage("200");
+        response.setMessage("berhasil");
         response.setData(personService.findAll());
 
 
